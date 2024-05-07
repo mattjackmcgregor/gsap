@@ -34,6 +34,7 @@ const ModelView = ({
       <Lights />
 
       <OrbitControls
+        autoRotate
         makeDefault
         ref={controlRef}
         enableZoom={false}
